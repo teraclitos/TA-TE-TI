@@ -1,0 +1,92 @@
+/* Reset */
+@import url(./reset.css);
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+/* Estilos globales */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #424242;
+  color: #f5f5f5;
+  border: solid #b9e937;
+  border-width: 0px 0px 5px 0px;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  
+}
+
+.flex {display: flex; justify-content: space-evenly; margin-top: 2rem;}
+
+.players {display: flex;flex-direction: column; justify-content: space-evenly; font-size: 2rem; font-weight: 700; margin-left: 8rem;}
+
+.board {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 5px;
+  margin-right: 8rem;
+}
+
+.squares {
+  height: 100px;
+  border: 5px solid #424242;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  background-color: #b9e937;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+
+.squares:active {
+  background-color: #b9e937;
+}
+
+button {
+  border: 4px solid #424242;
+  background-color: #424242;
+  color: #f5f5f5;
+  font-weight: 700;
+  font-size: 1em;
+  padding: 10px 15px 10px 15px;
+  border-radius: 15px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f5f5f5;
+  color: #424242;
+}
+
+button:active {
+  background-color: #424242;
+  color: #424242;
+}
+
+#result {
+  height: 2rem;
+  font-size: 2rem;
+}
+.vacio{flex-grow: 8;}
+
+.button{flex-grow: 4;}
+
