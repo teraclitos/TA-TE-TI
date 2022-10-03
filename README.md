@@ -9,3 +9,5 @@ A partir de este boilerplate, genere un Ta-Te-Ti con las siguientes funcionalida
 * Hay que generar la lógica necesaria para verificar cuando gana X u O.
 
 * Al detectar un ganador, debe mostrarse un mensaje detallando quien ganó.
+
+* Se deben pintar los casilleros del ganador
