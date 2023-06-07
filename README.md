@@ -1,13 +1,12 @@
-# DESAFÍO: TA-TE-TI
+# TA-TE-TI challenge
 
-A partir de este boilerplate, genere un Ta-Te-Ti con las siguientes funcionalidades mínimas:
 
-* Cada casillero debe inicialmente estar vacío y a medida que cada jugador haga click en ellos debe mostrarse X u O (dependiendo del juador), no debe poder cambiarse la selección una vez que ya este ocupado.
+* Each square should be initially empty, and when a player clicks on a square, it should display either 'X' or 'O,' depending on the player. Once a square is occupied, the selection should not be changeable
 
-* El botón de reiniciar debe vaciar todo el tablero.
+* There is a reset button that empties the board.
 
-* Hay que generar la lógica necesaria para verificar cuando gana X u O.
+* When the winner is detected, the winner's name should appear at the top of the board.
 
-* Al detectar un ganador, debe mostrarse un mensaje detallando quien ganó.
+* The three winners'lockers should be painted
 
-* Se deben pintar los casilleros del ganador
+[link ta te ti](https://ta-te-tifranciscoteran.netlify.app/)
